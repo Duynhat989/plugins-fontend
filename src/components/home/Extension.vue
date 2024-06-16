@@ -26,7 +26,7 @@ const loadExtensions = () => {
 
 }
 onMounted(() => {
-    loadExtensions()
+    // loadExtensions()
 })
 
 </script>

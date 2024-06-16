@@ -52,7 +52,7 @@ const loadTimeOut = async () => {
     })
 }
 onMounted(() => {
-    loadExtensions()
+    // loadExtensions()
     setTimeout(()=>{loadTimeOut()},1000)
 
 })

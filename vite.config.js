@@ -5,6 +5,9 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    port: 3983 // Thay đổi cổng thành 8080
+  },
   plugins: [
     vue(),
   ],

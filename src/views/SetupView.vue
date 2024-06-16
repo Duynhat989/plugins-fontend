@@ -172,13 +172,15 @@ onMounted(() => {
 </template>
 <style scoped>
 .button {
-    margin-bottom: 10px;
     display: block;
+    max-width: 580px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .mtm {
     padding: 30px;
-    min-width: 350px;
+    min-width: 100%;
 }
 
 .form-dat {
